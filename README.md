@@ -1,1 +1,1 @@
-# ts-get-key
+# keyof

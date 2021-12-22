@@ -5,9 +5,9 @@ __metadata:
   version: 5
   cacheKey: 8
 
-"ts-get-key@workspace:.":
+"ts-keyof@workspace:.":
   version: 0.0.0-use.local
-  resolution: "ts-get-key@workspace:."
+  resolution: "ts-keyof@workspace:."
   dependencies:
     typescript: ^4.5.4
   languageName: unknown

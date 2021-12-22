@@ -1,5 +1,5 @@
 {
-  "name": "ts-get-key",
+  "name": "ts-keyof",
   "packageManager": "yarn@3.1.1",
   "version": "0.0.0",
   "license": "Unlicensed",
@@ -8,7 +8,8 @@
   "types": "./dist/es6mjs/index.d.ts",
   "scripts": {
     "prepare": "yarn clear && tsc -p tsconfig.es6mjs.json && tsc -p tsconfig.es5cjs.json",
-    "clear": "rm -rf dist"
+    "clear": "rm -rf dist",
+    "prepublish": "yarn prepare"
   },
   "files": [
     "package.json",

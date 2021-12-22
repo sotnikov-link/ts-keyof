@@ -1,4 +1,4 @@
-export function getKey<
+export function keyof<
   O extends {},
   K extends keyof O,
   R extends UnionToTuple<K> extends [K] ? K : unknown

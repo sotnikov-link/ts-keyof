@@ -1,1 +1,1 @@
-export { getKey } from "./getKey";
+export { keyof } from "./keyof";

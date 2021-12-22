@@ -3,11 +3,16 @@
   "packageManager": "yarn@3.1.1",
   "version": "0.0.0",
   "license": "Unlicensed",
+  "main": "./dist/es5cjs/index.js",
+  "module": "./dist/es6mjs/index.js",
+  "types": "./dist/es6mjs/index.d.ts",
   "scripts": {
-    "prepare": "tsc"
+    "prepare": "yarn clear && tsc -p tsconfig.es6mjs.json && tsc -p tsconfig.es5cjs.json",
+    "clear": "rm -rf dist"
   },
   "files": [
-    "package.json"
+    "package.json",
+    "dist/**/*"
   ],
   "devDependencies": {
     "typescript": "^4.5.4"

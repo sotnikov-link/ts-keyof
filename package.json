@@ -2,8 +2,14 @@
   "name": "ts-get-key",
   "packageManager": "yarn@3.1.1",
   "version": "0.0.0",
+  "license": "Unlicensed",
+  "scripts": {
+    "prepare": "tsc"
+  },
   "files": [
     "package.json"
   ],
-  "license": "Unlicensed"
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
 }

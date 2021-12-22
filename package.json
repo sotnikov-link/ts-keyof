@@ -1,4 +1,9 @@
 {
-  "name": "getKey",
-  "packageManager": "yarn@3.1.1"
+  "name": "ts-get-key",
+  "packageManager": "yarn@3.1.1",
+  "version": "0.0.0",
+  "files": [
+    "package.json"
+  ],
+  "license": "Unlicensed"
 }

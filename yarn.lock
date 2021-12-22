@@ -4,8 +4,8 @@
 __metadata:
   version: 5
 
-"getKey@workspace:.":
+"ts-get-key@workspace:.":
   version: 0.0.0-use.local
-  resolution: "getKey@workspace:."
+  resolution: "ts-get-key@workspace:."
   languageName: unknown
   linkType: soft

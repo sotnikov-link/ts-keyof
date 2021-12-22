@@ -1,3 +1,9 @@
+## Project
+
+*.tgz
+
+## Yarn
+
 /.yarn/*
 !/.yarn/patches
 !/.yarn/plugins

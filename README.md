@@ -1,2 +1,1 @@
-# getKey
-Node.js package
+# ts-get-key

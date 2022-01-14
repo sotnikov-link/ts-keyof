@@ -2,7 +2,7 @@
   "name": "ts-keyof",
   "packageManager": "yarn@3.1.1",
   "version": "1.0.0",
-  "license": "The Unlicense",
+  "license": "MIT",
   "main": "./dist/es5cjs/index.js",
   "module": "./dist/es6mjs/index.js",
   "types": "./dist/es6mjs/index.d.ts",

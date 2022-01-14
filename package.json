@@ -1,11 +1,24 @@
 {
   "name": "ts-keyof",
   "packageManager": "yarn@3.1.1",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "main": "./dist/es5cjs/index.js",
   "module": "./dist/es6mjs/index.js",
   "types": "./dist/es6mjs/index.d.ts",
+  "homepage": "https://github.com/sotnikov-link/ts-keyof#readme",
+  "bugs": {
+    "url": "https://github.com/sotnikov-link/ts-keyof/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sotnikov-link/ts-keyof.git"
+  },
+  "keywords": [
+    "typescript",
+    "utils",
+    "tools"
+  ],
   "scripts": {
     "prepare": "yarn clear && tsc -p tsconfig.es6mjs.json && tsc -p tsconfig.es5cjs.json",
     "clear": "rm -rf dist",

@@ -1,8 +1,8 @@
 {
   "name": "ts-keyof",
   "packageManager": "yarn@3.1.1",
-  "version": "0.0.0",
-  "license": "Unlicensed",
+  "version": "1.0.0",
+  "license": "The Unlicense",
   "main": "./dist/es5cjs/index.js",
   "module": "./dist/es6mjs/index.js",
   "types": "./dist/es6mjs/index.d.ts",

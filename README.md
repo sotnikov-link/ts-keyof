@@ -38,7 +38,7 @@ const MyReactComponent = () => {}; // You need only rename variable
 MyReactComponent.displayName = keyof({ MyReactComponent });
 
 // You don't need to think about strings
-// MyReactComponent.displayName = 'MyReactComponent'
+// MyReactComponent.displayName = 'MyReactComponent';
 ```
 
 ### Types and Errors

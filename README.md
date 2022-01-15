@@ -1,7 +1,7 @@
 # ts-keyof
 
 Use variable name as a string over key in object. Little alternative
-for [ts-nameof](https://github.com/dsherret/ts-nameof) with zero-configs,
+to [ts-nameof](https://github.com/dsherret/ts-nameof) with zero-configs,
 but works in runtime!
 
 ## Installation

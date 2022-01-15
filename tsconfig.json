@@ -1,5 +1,5 @@
 {
-  "include": ["./src/"],
+  "files": ["./src/keyof.ts"],
   // see https://www.typescriptlang.org/tsconfig to better understand tsconfigs
   "compilerOptions": {
     "outDir": "./dist/",

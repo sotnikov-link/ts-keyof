@@ -1,7 +1,7 @@
 {
   "name": "ts-keyof",
   "packageManager": "yarn@3.1.1",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "license": "MIT",
   "main": "./dist/keyof.js",
   "types": "./dist/keyof.d.ts",
@@ -19,9 +19,10 @@
     "tools"
   ],
   "scripts": {
-    "prepare": "yarn clear && tsc && swc ./src/ --out-dir ./dist/",
+    "test": "jest",
+    "prepare": "yarn clear && tsc && swc --out-dir dist src/keyof.ts",
     "clear": "rm -rf dist",
-    "prepublish": "yarn prepare",
+    "prepublish": "yarn test && yarn prepare",
     "sdk-vscode": "yarn dlx @yarnpkg/sdks vscode"
   },
   "files": [
@@ -31,7 +32,11 @@
   "devDependencies": {
     "@swc/cli": "^0.1.55",
     "@swc/core": "^1.2.129",
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7",
     "prettier": "^2.5.1",
+    "ts-expect": "^1.3.0",
+    "ts-jest": "^27.1.3",
     "typescript": "^4.5.4"
   }
 }

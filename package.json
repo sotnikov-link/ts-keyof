@@ -21,7 +21,8 @@
   "scripts": {
     "prepare": "yarn clear && tsc && swc ./src/ --out-dir ./dist/",
     "clear": "rm -rf dist",
-    "prepublish": "yarn prepare"
+    "prepublish": "yarn prepare",
+    "sdk-vscode": "yarn dlx @yarnpkg/sdks vscode"
   },
   "files": [
     "package.json",

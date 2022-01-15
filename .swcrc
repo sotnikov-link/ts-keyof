@@ -1,0 +1,18 @@
+{
+  "sourceMaps": true,
+  "minify": true,
+  "module": { "type": "umd" },
+  "jsc": {
+    "target": "es5",
+    "minify": {
+      "compress": true,
+      "mangle": true
+    },
+    "parser": {
+      "syntax": "typescript",
+      "tsx": false,
+      "decorators": false,
+      "dynamicImport": false
+    }
+  }
+}

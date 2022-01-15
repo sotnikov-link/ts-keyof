@@ -3,9 +3,8 @@
   "packageManager": "yarn@3.1.1",
   "version": "1.2.0",
   "license": "MIT",
-  "main": "./dist/es5cjs/index.js",
-  "module": "./dist/es6mjs/index.js",
-  "types": "./dist/es6mjs/index.d.ts",
+  "main": "./dist/keyof.js",
+  "types": "./dist/keyof.d.ts",
   "homepage": "https://github.com/sotnikov-link/ts-keyof#readme",
   "bugs": {
     "url": "https://github.com/sotnikov-link/ts-keyof/issues"
@@ -20,7 +19,7 @@
     "tools"
   ],
   "scripts": {
-    "prepare": "yarn clear && tsc -p tsconfig.es6mjs.json && tsc -p tsconfig.es5cjs.json",
+    "prepare": "yarn clear && tsc && swc ./src/ --out-dir ./dist/",
     "clear": "rm -rf dist",
     "prepublish": "yarn prepare"
   },
@@ -29,6 +28,8 @@
     "dist/**/*"
   ],
   "devDependencies": {
+    "@swc/cli": "^0.1.55",
+    "@swc/core": "^1.2.129",
     "prettier": "^2.5.1",
     "typescript": "^4.5.4"
   }

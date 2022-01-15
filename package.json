@@ -1,7 +1,7 @@
 {
   "name": "ts-keyof",
   "packageManager": "yarn@3.1.1",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "MIT",
   "main": "./dist/es5cjs/index.js",
   "module": "./dist/es6mjs/index.js",
